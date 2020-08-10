@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#FFEFE6E6"
+    >
+
+    <ImageView
+        android:layout_marginLeft="75dp"
+        android:layout_width="183dp"
+        android:layout_height="251dp"
+        android:src="@drawable/penanggulangan" />
+
+    <Button
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:id="@+id/pindahcuci"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:background="#950404"
+        android:text="@string/cuci"
+        android:textColor="@android:color/primary_text_dark"
+        android:layout_marginTop="15dp"
+        />
+    <Button
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:id="@+id/pindahmasker"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:background="#950404"
+        android:text="@string/masker"
+        android:textAlignment="center"
+        android:textColor="@android:color/primary_text_dark"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:id="@+id/pindahaktivitas"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:background="#950404"
+        android:text="@string/Pola"
+        android:textAlignment="center"
+        android:textColor="@android:color/primary_text_dark"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:id="@+id/exit"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:background="#950404"
+        android:text="@string/exit"
+        android:textAlignment="center"
+        android:textColor="@android:color/primary_text_dark"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:paddingTop="5dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="6pt"
+        android:text="@string/copyright"
+        android:textColor="@android:color/background_dark"
+        />
+
+</LinearLayout>
